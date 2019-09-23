@@ -50,4 +50,14 @@
             </plugin>
         </plugins>
     </build>
+        <distributionManagement>
+        <repository>
+            <id>demo-release</id>
+            <url>http://35.192.45.53:8081/repository/demo-release/</url>
+        </repository>
+        <!--<snapshotRepository>
+            <id>maven-hosted</id>
+            <url>http://34.93.144.130:8081/repository/maven-hosted/</url>
+        </snapshotRepository> -->
+    </distributionManagement>
 </project>
