@@ -52,8 +52,8 @@
     </build>
         <distributionManagement>
         <repository>
-            <id>demo-release</id>
-            <url>http://35.192.45.53:8081/repository/demo-release/</url>
+            <id>demosnap</id>
+            <url>http://35.192.45.53:8081/repository/demosnap/</url>
         </repository>
         <!--<snapshotRepository>
             <id>maven-hosted</id>
